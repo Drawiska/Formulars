@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Formular validation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" placeholder="Your name" id="userName">
+                <i class="fa fa-check-circle" aria-="true"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error!</small>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" placeholder="your@gmail.com" id="email">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <small>Error!</small>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" placeholder="Password" id="password">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <small>Error!</small>
+            </div>
+            <div class="form-control">
+                <label>Password verification</label>
+                <input type="password" placeholder="Password-verification" id="password2">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <small>Error!</small>
+            </div>
+
+            <button>Create account</button>
+        </form>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
